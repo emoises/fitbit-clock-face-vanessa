@@ -1,0 +1,59 @@
+    * {
+        font-family: System-Light;
+    }
+    .arcs{
+        opacity: 1;
+    }
+    #arc_goals_primary{
+        opacity: .3;
+    }
+    #day_of_week {
+        rotate: 90;
+    }
+
+.application-fill           { fill: fb-green; }
+.foreground-fill            { fill: fb-white; }
+.background-fill            { fill: fb-black; }
+
+#container {
+  width: 100%;
+  height: 30%;
+  x: 0;
+  y: 70%;
+}
+
+#cicle_background {
+  width: 100%;
+  height: 100%;
+}
+
+.cycle-item text {
+  font-size: 32;
+  x: 13%;
+  y: 46%;
+  text-anchor: middle;
+  font-family: Fabrikat-Black;
+  font-size: 16;
+  font-weight: bold;
+  text-length: 20 ;
+}
+.cycle-item image {
+  x: 13%-15;
+  y: 55%
+}
+#text_primary_goal {
+  x: 13%;
+  y: 84%;
+  font-family: Fabrikat-Black;
+  font-size: 16;
+  font-weight: bold;
+  text-length: 20 ; 
+  text-anchor: middle;
+}
+#battery_text {
+  font-family: Fabrikat-Black;
+  font-size: 16;
+  font-weight: bold;
+  text-length: 20 ;
+  text-anchor: middle;
+}
